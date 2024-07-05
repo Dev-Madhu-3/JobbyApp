@@ -1,0 +1,77 @@
+.Login-page-con {
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-con {
+  max-width: 500px;
+  padding: 50px;
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.login-card-heading-img {
+  width: 150px;
+  height: 50px;
+}
+.form-con {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+}
+.user-input {
+  width: 380px;
+  height: 40px;
+  background-color: transparent;
+  font-size: 17px;
+  color: #7e858e;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  margin: 10px 0px;
+  outline: none;
+}
+.user-input-label {
+  color: #f8fafc;
+  font-size: 17px;
+  margin-top: 20px;
+}
+.login-button {
+  width: 380px;
+  height: 40px;
+  background-color: #4f46e5;
+  font-size: 17px;
+  color: #f9f9fa;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.login-error-mgs {
+  color: #ff0b37;
+  font-size: 15px;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .card-con {
+    width: 95%;
+  }
+  .Login-page-con {
+    width: 100%;
+  }
+  .user-input {
+    width: 95%;
+  }
+  .login-button {
+    width: 95%;
+  }
+}
